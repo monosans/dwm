@@ -34,6 +34,7 @@ git clone https://github.com/monosans/dwm
 cd dwm
 sudo make clean install
 ```
+Add `exec dwm` to your `.xinitrc` file.
 
 ## Note for multi-monitor users
 
@@ -54,3 +55,4 @@ git clone https://github.com/monosans/dwm
 cd dwm
 sudo make clean uninstall
 ```
+Remove `exec dwm` from your `.xinitrc` file.
