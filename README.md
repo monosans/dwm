@@ -1,6 +1,4 @@
-# My build of dwm - the dynamic window manager
-
-The [dynamic window manager (dwm)](https://dwm.suckless.org/) with some additional features.
+# My build of [dwm - the dynamic window manager](https://dwm.suckless.org/)
 
 ## Features
 
