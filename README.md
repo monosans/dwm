@@ -39,11 +39,11 @@ sudo make clean install
 
 ## Note for multi-monitor users
 
-Multi-monitor is disabled in `config.mk` by default. There is also no keybindings for multi-monitor setups, but you can get them from the [original config](https://git.suckless.org/dwm/file/config.def.h.html).
+Multi-monitor is disabled in `config.mk` by default. Also keybindings for multi-monitor setups are not set, but you can get them from the [original config](https://git.suckless.org/dwm/file/config.def.h.html).
 
 ## Note for OpenBSD users
 
-Be sure to edit `config.mk` by commenting 19th line `FREETYPEINC = /usr/include/freetype2` and uncommenting 21th line.
+Be sure to edit `config.mk` by commenting 18th line `FREETYPEINC = /usr/include/freetype2` and uncommenting 20th line.
 
 ## Uninstallation on Arch Linux
 
