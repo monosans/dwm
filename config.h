@@ -33,7 +33,7 @@ static const Rule rules[] = {
 };
 
 /* layout(s) */
-static const float mfact     = 0.55; /* factor of master area size [0.05..0.95] */
+static const float mfact     = 0.50; /* factor of master area size [0.05..0.95] */
 static const int nmaster     = 1;    /* number of clients in master area */
 static const int resizehints = 0;    /* 1 means respect size hints in tiled resizals */
 
@@ -75,9 +75,9 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_space,  togglefloating, {0} },
     { MODKEY,                       XK_f,      spawn,          SHCMD("pcmanfm") },
     { MODKEY,                       XK_b,      spawn,          SHCMD("brave-nightly") },
-    { MODKEY,                       XK_a,      spawn,          SHCMD("st -e yay -Syuu --devel") },
-    { MODKEY,                       XK_F11,    spawn,          SHCMD("poweroff") },
-    { MODKEY,                       XK_F12,    spawn,          SHCMD("reboot") },
+    { MODKEY,                       XK_a,      spawn,          SHCMD("st -e paru -Syuu") },
+    { MODKEY,                       XK_F11,    spawn,          SHCMD("sudo poweroff") },
+    { MODKEY,                       XK_F12,    spawn,          SHCMD("sudo reboot") },
     { 0,                            XK_Print,  spawn,          SHCMD("scrot") },
     { ShiftMask,                    XK_Print,  spawn,          SHCMD("sleep 0.1; scrot -s") },
 	TAGKEYS(                        XK_1,                      0)
