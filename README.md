@@ -25,7 +25,8 @@
 
 ## Installation on Arch Linux and Arch Linux based distributions
 
-Available in AUR as [dwm-monosans-git](https://aur.archlinux.org/packages/dwm-monosans-git/)
+Available in the AUR as [dwm-monosans-git](https://aur.archlinux.org/packages/dwm-monosans-git/)
+Add `exec dwm` to your `.xinitrc` file.
 
 ## Installation on other distributions
 
@@ -35,6 +36,10 @@ cd dwm
 sudo make clean install
 ```
 Add `exec dwm` to your `.xinitrc` file.
+
+## Note on emojis and special characters in status bar
+
+If dwm crashes when displaying emojis, install [libxft-bgra](https://aur.archlinux.org/packages/libxft-bgra) or [libxft-bgra-git](https://aur.archlinux.org/packages/libxft-bgra-git) from the AUR.
 
 ## Note for multi-monitor users
 
