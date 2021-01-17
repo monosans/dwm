@@ -25,8 +25,7 @@
 
 ## Installation on Arch Linux and Arch Linux based distributions
 
-Available in the AUR as [dwm-monosans-git](https://aur.archlinux.org/packages/dwm-monosans-git)
-Don't forget to add `exec dwm` to your `.xinitrc` file.
+Available in the AUR as [dwm-monosans-git](https://aur.archlinux.org/packages/dwm-monosans-git). Don't forget to add `exec dwm` to your `.xinitrc` file.
 
 ## Installation on other distributions
 
