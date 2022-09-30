@@ -14,9 +14,9 @@ X11LIB = /usr/X11R6/lib
 #X11INC = /usr/local/include
 #X11LIB = /usr/local/lib
 
-# Xinerama, comment if you don't want it
-XINERAMALIBS  = -lXinerama
-XINERAMAFLAGS = -DXINERAMA
+# Xinerama, uncomment if you want it
+#XINERAMALIBS  = -lXinerama
+#XINERAMAFLAGS = -DXINERAMA
 
 # freetype
 FREETYPELIBS = -lfontconfig -lXft
